@@ -1,8 +1,8 @@
 # *
-# **
-# ***
-# ****
-# *****
+# * *
+# * * *
+# * * * *
+# * * * * *
 
 def pyramid(max_row):
     for current_row in range(max_row):
