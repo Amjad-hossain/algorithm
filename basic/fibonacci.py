@@ -6,4 +6,14 @@ def fibonacci_series(num):
         f, s = s, f + s
 
 
-fibonacci_series(100000)
+# fibonacci_series(5)
+
+
+def fibonacci_recu(n):
+    if n == 0 or n == 1:
+        return n
+    else:
+        return fibonacci_recu(n - 1) + fibonacci_recu(n - 2)
+
+
+print(fibonacci_recu(8))
