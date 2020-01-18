@@ -1,4 +1,7 @@
 # Given a sorted array arr[] of n elements, write a function to search a given element x in arr[].
+# the algorithm compares the input element x with the value of the middle element in array.
+# If the values match, return the index of middle. Otherwise, if x is less than the middle element,
+# then the algorithm recurs for left side of middle element, else recurs for right side of middle element.
 
 def binary_search_recursive(a, k, l, r):
     if l > r:
