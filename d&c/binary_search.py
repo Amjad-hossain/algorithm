@@ -23,3 +23,6 @@ assert binary_search(a, 9) == 9
 assert binary_search(a, 0) == 0
 assert binary_search(a, 11) == -1
 assert binary_search(a, -1) == -1
+
+a = [2, 3, 5, 6, 7, 9]
+assert binary_search(a, 7) == 4
