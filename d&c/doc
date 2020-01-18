@@ -1,0 +1,4 @@
+Divide and conquer approach
+    a problem is divided into smaller problems,
+    then the smaller problems are solved independently,
+    and finally the solutions of smaller problems are combined into a solution for the large problem.
