@@ -40,8 +40,6 @@ def merge_sort(dataset):
             index_rd += 1
             index_md += 1
 
-        # return dataset
-
 
 a = [6, 20, 8, 19, 56, 23, 87, 41, 49, 53]
 merge_sort(a)
