@@ -4,24 +4,24 @@ def gcd(f, s):
     return f
 
 
-print(gcd(6, 4))
-print(gcd(4, 6))
-print(gcd(2, 3))
-print(gcd(3, 2))
-print(gcd(9, 27))
-print(gcd(27, 9))
+assert gcd(6, 4) == 2
+assert gcd(4, 6) == 2
+assert gcd(2, 3) == 1
+assert gcd(3, 2) == 1
+assert gcd(9, 27) == 9
+assert gcd(27, 9) == 9
 
 
 def lcm_recu(f, s):
     return (s * f) // gcd(f, s)
 
 
-print(lcm_recu(6, 4))
-print(lcm_recu(4, 6))
-print(lcm_recu(2, 3))
-print(lcm_recu(3, 2))
-print(lcm_recu(9, 27))
-print(lcm_recu(27, 9))
+assert lcm_recu(6, 4) == 12
+assert lcm_recu(4, 6) == 12
+assert lcm_recu(2, 3) == 6
+assert lcm_recu(3, 2) == 6
+assert lcm_recu(9, 27) == 27
+assert lcm_recu(27, 9) == 27
 
 
 def lcm_loop(f, s):
@@ -39,9 +39,9 @@ def lcm_loop(f, s):
     return m * f * s
 
 
-print(lcm_loop(6, 4))
-print(lcm_loop(4, 6))
-print(lcm_loop(2, 3))
-print(lcm_loop(3, 2))
-print(lcm_loop(9, 27))
-print(lcm_loop(27, 9))
+assert lcm_loop(6, 4) == 12
+assert lcm_loop(4, 6) == 12
+assert lcm_loop(2, 3) == 6
+assert lcm_loop(3, 2) == 6
+assert lcm_loop(9, 27) == 27
+assert lcm_loop(27, 9) == 27

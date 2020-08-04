@@ -16,4 +16,4 @@ def fibonacci_recu(n):
         return fibonacci_recu(n - 1) + fibonacci_recu(n - 2)
 
 
-print(fibonacci_recu(8))
+assert fibonacci_recu(8) == 21
